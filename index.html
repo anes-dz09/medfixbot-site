@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MedfixBot</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(-45deg, #000, #444, #222, #000);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .card {
+      background: #fff;
+      color: #000;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      padding: 30px;
+      max-width: 500px;
+      text-align: center;
+      margin: 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #007bff;
+      color: #fff;
+      padding: 12px 24px;
+      margin: 10px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+      text-decoration: none;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #0056cc;
+      transform: scale(1.05);
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🤖 MedfixBot</h1>
+    <p>A simple and powerful giveaway bot for Discord.</p>
+    <a class="btn" href="/invite/">➕ Invite</a>
+    <a class="btn" href="/support/">💬 Support</a>
+    <a class="btn" href="/privacy/">📜 Privacy Policy</a>
+  </div>
+  <div class="footer">
+    &copy; 2025 MedfixBot. All rights reserved.
+  </div>
+</body>
+</html>
